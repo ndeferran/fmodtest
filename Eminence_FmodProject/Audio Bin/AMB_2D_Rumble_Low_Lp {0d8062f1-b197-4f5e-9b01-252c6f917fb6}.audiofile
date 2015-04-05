@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.03.01">
+    <object class="AudioFile" id="{0d8062f1-b197-4f5e-9b01-252c6f917fb6}">
+        <property name="frequencyInKHz">
+            <value>44.1</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.61226757369614</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/AMB_2D_Rumble_Low_Lp {e6b530a4-0c7f-4f85-80d6-4ad80f651f03}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{95c01236-b017-4576-b286-8c2a1a704eb4}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.03.01">
+    <object class="AudioFile" id="{fddd542b-cbab-4616-bcf0-e9d75c4317c0}">
+        <property name="frequencyInKHz">
+            <value>44.1</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>17.647074829932</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Eminence_MUS_Awakening_PartB_02 {a49befea-9c00-41af-884a-95f08c664b37}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{9d9d50f1-e96e-4b41-a6f7-617bb4003438}</destination>
+        </relationship>
+    </object>
+</objects>

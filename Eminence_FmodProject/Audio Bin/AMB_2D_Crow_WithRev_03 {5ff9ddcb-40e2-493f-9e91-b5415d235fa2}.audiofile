@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.03.01">
+    <object class="AudioFile" id="{5ff9ddcb-40e2-493f-9e91-b5415d235fa2}">
+        <property name="frequencyInKHz">
+            <value>44.1</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.33913832199546</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/AMB_2D_Crow_WithRev_03 {5e6754fb-0e0f-4b34-9521-99d8fbed8c10}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{95c01236-b017-4576-b286-8c2a1a704eb4}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.03.01">
+    <object class="AudioFile" id="{7876542b-33ec-4674-ac1a-7b06a434c21d}">
+        <property name="frequencyInKHz">
+            <value>44.1</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>11.200022675737</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Eminence_MUS_Stormbreaker_Outro {f6db055a-e3e1-43c3-96d7-beeaa8de9aea}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{8ee44204-d5f5-4d99-b043-1d407358ada5}</destination>
+        </relationship>
+    </object>
+</objects>

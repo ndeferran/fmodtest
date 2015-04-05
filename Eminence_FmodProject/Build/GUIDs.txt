@@ -1,0 +1,5 @@
+{bd8775a4-9512-45f0-95b9-a806a3ca7466} event:/MUSIC/MUS_Battle_01
+{94a89c9c-127c-42b3-aea5-dcf6eb06c466} bus:/
+{fa9f4052-a7ba-47ac-9d79-f11ea4f67074} bus:/Reverb
+{6693401e-a9d3-4271-a09c-c7f3cfdf7380} bank:/Master Bank
+{1066a286-d7bf-4449-882e-058739287ca8} bank:/Music
