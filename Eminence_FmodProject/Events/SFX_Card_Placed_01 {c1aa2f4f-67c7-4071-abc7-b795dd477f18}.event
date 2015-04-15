@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.03.01">
+<objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{c1aa2f4f-67c7-4071-abc7-b795dd477f18}">
         <property name="name">
             <value>SFX_Card_Placed_01</value>
@@ -45,11 +45,18 @@
     <object class="EventAutomatableProperties" id="{7151a7df-1efe-4215-963b-4b5f28f7c0b9}"/>
     <object class="MarkerTrack" id="{7d7a11ce-f8f5-4469-bd86-91e4498b8b95}"/>
     <object class="GroupTrack" id="{2bf37d0a-43c2-4403-a718-71dc1d54718e}">
+        <relationship name="modules">
+            <destination>{9c76e824-9fab-44b7-91c6-d70821a34589}</destination>
+        </relationship>
         <relationship name="mixerGroup">
             <destination>{ae4d970d-b769-4364-bcc4-4c34cfc694f6}</destination>
         </relationship>
     </object>
-    <object class="Timeline" id="{208ff254-ed9b-412a-9a2c-eec3b1a87b04}"/>
+    <object class="Timeline" id="{208ff254-ed9b-412a-9a2c-eec3b1a87b04}">
+        <relationship name="modules">
+            <destination>{9c76e824-9fab-44b7-91c6-d70821a34589}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerMaster" id="{d781e243-27de-4d09-bb0f-739ce21eff5f}">
         <property name="name">
             <value>Master</value>
@@ -62,6 +69,17 @@
         </relationship>
         <relationship name="mixer">
             <destination>{57514f2f-e0ab-4ecf-b821-40f9d8c4b9b0}</destination>
+        </relationship>
+    </object>
+    <object class="SingleSound" id="{9c76e824-9fab-44b7-91c6-d70821a34589}">
+        <property name="start">
+            <value>0</value>
+        </property>
+        <property name="length">
+            <value>0.82777083333333334</value>
+        </property>
+        <relationship name="audioFile">
+            <destination>{806dabca-1965-4568-8001-31e494049164}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{ae4d970d-b769-4364-bcc4-4c34cfc694f6}">

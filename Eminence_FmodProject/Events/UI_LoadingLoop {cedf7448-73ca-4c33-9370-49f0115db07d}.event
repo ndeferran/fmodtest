@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.03.01">
+<objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{cedf7448-73ca-4c33-9370-49f0115db07d}">
         <property name="name">
             <value>UI_LoadingLoop</value>
@@ -76,7 +76,10 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>1.39510204081633</value>
+            <value>1.3951020408163299</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="audioFile">
             <destination>{11c3c217-7a67-44bc-abfc-0b3009c6b524}</destination>
@@ -104,7 +107,10 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>1.39510204081633</value>
+            <value>1.3951020408163299</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{33f7afd9-45d8-4920-a718-d34b5d762c01}</destination>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.03.01">
+<objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{851a1e74-8c2f-4623-b6f3-30ab53b5c96a}">
         <property name="name">
             <value>AMB_DivisionSelection</value>
@@ -230,7 +230,10 @@
             <value>1.99999995529652</value>
         </property>
         <property name="length">
-            <value>0.499999988824129</value>
+            <value>0.49999998882412899</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Green</value>
@@ -251,6 +254,9 @@
         </property>
         <property name="length">
             <value>1.49999996647239</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Red</value>
@@ -281,10 +287,13 @@
     </object>
     <object class="SingleSound" id="{0aeab93b-de86-4bd6-abc5-641981a4c700}">
         <property name="start">
-            <value>3.99999991059303</value>
+            <value>3.9999999105930302</value>
         </property>
         <property name="length">
-            <value>0.500000007450581</value>
+            <value>0.50000000745058104</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Magenta</value>
@@ -301,7 +310,7 @@
     </object>
     <object class="EventMixerGroup" id="{a14e4831-17db-4a53-b93d-38e23b7c02ac}">
         <property name="volume">
-            <value>-11.5</value>
+            <value>-6.5</value>
         </property>
         <property name="name">
             <value>WindBed_Snow</value>
@@ -323,6 +332,9 @@
         <property name="length">
             <value>1.49999996647239</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="color">
             <value>Red</value>
         </property>
@@ -338,7 +350,7 @@
     </object>
     <object class="EventMixerGroup" id="{c42cee5c-42a2-4f4b-ab4f-690525552bc6}">
         <property name="volume">
-            <value>-28</value>
+            <value>-21.5</value>
         </property>
         <property name="name">
             <value>BirdsSoft_Loop</value>
@@ -358,7 +370,10 @@
             <value>1.99999995529652</value>
         </property>
         <property name="length">
-            <value>0.499999988824129</value>
+            <value>0.49999998882412899</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Green</value>
@@ -392,10 +407,13 @@
     </object>
     <object class="SoundScatterer" id="{c4f0f920-5a94-43f1-bea3-6fca1a01a369}">
         <property name="start">
-            <value>3.99999991059303</value>
+            <value>3.9999999105930302</value>
         </property>
         <property name="length">
-            <value>0.500000007450581</value>
+            <value>0.50000000745058104</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="delayType">
             <value>0</value>
@@ -422,10 +440,10 @@
             <value>4800</value>
         </property>
         <property name="minimumScatterDistance">
-            <value>5.8</value>
+            <value>5.80000019</value>
         </property>
         <property name="maximumScatterDistance">
-            <value>9.8</value>
+            <value>9.80000019</value>
         </property>
         <property name="runtimeVolumeModulatorID">
             <value>{39935e36-eff4-4ed4-a3a1-6b280d78baaf}</value>
@@ -467,6 +485,9 @@
         <property name="length">
             <value>1.49999996647239</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="color">
             <value>Red</value>
         </property>
@@ -489,7 +510,7 @@
             <value>-5.5</value>
         </property>
         <property name="pitchRandomization">
-            <value>0.85</value>
+            <value>0.850000024</value>
         </property>
         <property name="runtimeVolumeModulatorID">
             <value>{b3778b90-e490-4db6-bb2a-1ae8497904d2}</value>
@@ -543,7 +564,10 @@
             <value>1.99999995529652</value>
         </property>
         <property name="length">
-            <value>0.499999988824129</value>
+            <value>0.49999998882412899</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Green</value>
@@ -552,7 +576,7 @@
             <value>3</value>
         </property>
         <property name="maximumScatterDistance">
-            <value>4.6</value>
+            <value>4.5999999</value>
         </property>
         <property name="runtimeVolumeModulatorID">
             <value>{6d1d48fa-0e48-46c2-9e19-591a0545dddc}</value>
@@ -580,6 +604,9 @@
         <property name="length">
             <value>1.49999996647239</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="color">
             <value>Red</value>
         </property>
@@ -587,7 +614,7 @@
             <value>3</value>
         </property>
         <property name="maximumScatterDistance">
-            <value>4.6</value>
+            <value>4.5999999</value>
         </property>
         <property name="runtimeVolumeModulatorID">
             <value>{2b05a3b1-30df-445e-bf45-87b7215381ff}</value>
@@ -636,7 +663,10 @@
             <value>1.99999995529652</value>
         </property>
         <property name="length">
-            <value>0.500000007450581</value>
+            <value>0.50000000745058104</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Green</value>
@@ -670,10 +700,13 @@
     </object>
     <object class="SingleSound" id="{632bdee9-0d01-49df-ad17-5e4c893533ef}">
         <property name="start">
-            <value>2.99999993294477</value>
+            <value>2.9999999329447702</value>
         </property>
         <property name="length">
-            <value>0.499999988824129</value>
+            <value>0.49999998882412899</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Cyan</value>
@@ -707,10 +740,13 @@
     </object>
     <object class="SingleSound" id="{59a627b4-14ed-4a2d-bc52-9998851db100}">
         <property name="start">
-            <value>2.99999993294477</value>
+            <value>2.9999999329447702</value>
         </property>
         <property name="length">
-            <value>0.500000007450581</value>
+            <value>0.50000000745058104</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Cyan</value>
@@ -744,10 +780,13 @@
     </object>
     <object class="SoundScatterer" id="{bf01d6a2-621e-4e3a-9e3a-fe4a452853cf}">
         <property name="start">
-            <value>2.99999993294477</value>
+            <value>2.9999999329447702</value>
         </property>
         <property name="length">
-            <value>0.500000007450581</value>
+            <value>0.50000000745058104</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Cyan</value>
@@ -759,7 +798,7 @@
             <value>2</value>
         </property>
         <property name="minimumScatterDistance">
-            <value>1.4</value>
+            <value>1.39999998</value>
         </property>
         <property name="maximumScatterDistance">
             <value>4.25</value>
@@ -768,7 +807,7 @@
             <value>-4</value>
         </property>
         <property name="pitchRandomization">
-            <value>3.4</value>
+            <value>3.4000001</value>
         </property>
         <property name="runtimeVolumeModulatorID">
             <value>{bf032516-149b-48c0-bea9-9d82401ca2e9}</value>
@@ -808,10 +847,13 @@
     </object>
     <object class="SoundScatterer" id="{e85aed19-4eb4-4b00-b284-520d185cb0c9}">
         <property name="start">
-            <value>3.99999991059303</value>
+            <value>3.9999999105930302</value>
         </property>
         <property name="length">
-            <value>0.499999988824129</value>
+            <value>0.49999998882412899</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Magenta</value>
@@ -820,7 +862,7 @@
             <value>3</value>
         </property>
         <property name="maximumScatterDistance">
-            <value>4.6</value>
+            <value>4.5999999</value>
         </property>
         <property name="runtimeVolumeModulatorID">
             <value>{df8edbd1-ddac-41e9-b4c8-dd095eef7572}</value>
@@ -909,13 +951,13 @@
             <value>-80</value>
         </property>
         <property name="attackTime">
-            <value>315.217</value>
+            <value>315.21701</value>
         </property>
         <property name="attackShape">
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-0.577777</value>
+            <value>-0.577777028</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -930,7 +972,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>3465.22</value>
+            <value>3465.21997</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -954,7 +996,7 @@
             <value>1000</value>
         </property>
         <property name="attackShape">
-            <value>-0.37923</value>
+            <value>-0.379229993</value>
         </property>
         <property name="peakValue">
             <value>0</value>
@@ -972,7 +1014,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>5519.56</value>
+            <value>5519.56006</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -989,7 +1031,7 @@
             <value>1000</value>
         </property>
         <property name="attackShape">
-            <value>-0.37923</value>
+            <value>-0.379229993</value>
         </property>
         <property name="peakValue">
             <value>0</value>
@@ -1007,7 +1049,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>7163.04</value>
+            <value>7163.04004</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -1048,7 +1090,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>7573.91</value>
+            <value>7573.91016</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -1071,7 +1113,7 @@
             <value>1000</value>
         </property>
         <property name="attackShape">
-            <value>-0.37923</value>
+            <value>-0.379229993</value>
         </property>
         <property name="peakValue">
             <value>0</value>
@@ -1089,7 +1131,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>7984.78</value>
+            <value>7984.77979</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -1130,7 +1172,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>4286.96</value>
+            <value>4286.95996</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -1143,6 +1185,9 @@
     </object>
     <object class="MixerBusPanner" id="{a4d95a28-f9a5-4464-8636-ba9eef9012b6}"/>
     <object class="MultiSound" id="{44e7ffa4-b13a-46e4-9a41-821a93650444}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="sounds">
             <destination>{b1dfb94b-35b4-4de5-88a2-fe13dc40f473}</destination>
             <destination>{4969155a-126f-4e88-a289-281ea33f72f5}</destination>
@@ -1157,6 +1202,9 @@
     </object>
     <object class="MixerBusPanner" id="{1eef272c-5d5c-4338-8e9c-e60958f6f972}"/>
     <object class="MultiSound" id="{8101411f-f458-49b7-9526-672dfb00157f}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="sounds">
             <destination>{068e14c1-86e0-4f09-a87d-144e8d687122}</destination>
             <destination>{6e97e802-3fcf-427f-ab76-33f9a8084eee}</destination>
@@ -1175,6 +1223,9 @@
         </property>
     </object>
     <object class="MultiSound" id="{544ac4eb-8196-4e12-aa7e-3d7b19e4f634}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="sounds">
             <destination>{35233d81-2a65-4aa7-a1c8-297cdfc3cd3b}</destination>
             <destination>{d4fccd1b-70a5-4be2-9596-4c004430486f}</destination>
@@ -1196,7 +1247,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>0.577778</value>
+            <value>0.577777982</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -1211,13 +1262,16 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>7163.04</value>
+            <value>7163.04004</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
         </property>
     </object>
     <object class="MultiSound" id="{1f66566d-7b0a-42c5-8898-156e79c282fb}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="sounds">
             <destination>{d1afb0f2-2745-467b-9513-c9adc5b34830}</destination>
             <destination>{941ee92c-624a-4ab9-bc4e-05f1d5e8b3ef}</destination>
@@ -1233,13 +1287,13 @@
             <value>-80</value>
         </property>
         <property name="attackTime">
-            <value>223.913</value>
+            <value>223.912994</value>
         </property>
         <property name="attackShape">
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-9.53674e-07</value>
+            <value>-9.53673975e-07</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -1254,7 +1308,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>5108.7</value>
+            <value>5108.7002</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -1295,7 +1349,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>4697.83</value>
+            <value>4697.83008</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -1340,7 +1394,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>6341.3</value>
+            <value>6341.2998</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -1381,7 +1435,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>6341.3</value>
+            <value>6341.2998</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -1422,13 +1476,16 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>6341.3</value>
+            <value>6341.2998</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
         </property>
     </object>
     <object class="MultiSound" id="{dc80f1f5-9530-455c-8315-e2e38d1afa19}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="sounds">
             <destination>{1a4068d2-1713-4a97-a17d-49246109c67c}</destination>
             <destination>{80c195ad-c31e-4254-8941-b9f64dd60649}</destination>
@@ -1454,13 +1511,13 @@
             <value>-80</value>
         </property>
         <property name="attackTime">
-            <value>41.3044</value>
+            <value>41.3044014</value>
         </property>
         <property name="attackShape">
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>0.577778</value>
+            <value>0.577777982</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -1475,13 +1532,16 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>6341.3</value>
+            <value>6341.2998</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
         </property>
     </object>
     <object class="MultiSound" id="{46012810-d9f4-4f16-b0a8-979d2c29936b}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="sounds">
             <destination>{ddcbe27c-a476-4656-b765-0b4804b057a1}</destination>
             <destination>{f3005f9a-ac62-4c42-b881-16b028902377}</destination>
@@ -1505,12 +1565,12 @@
             <value>1.99999995529652</value>
         </property>
         <property name="value">
-            <value>-4.69565</value>
+            <value>-4.6956501</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{adebeb50-6d2b-4166-9b69-07511df0a192}">
         <property name="position">
-            <value>0.0999999977648258</value>
+            <value>0.099999997764825793</value>
         </property>
         <property name="value">
             <value>-0.173914</value>
@@ -1518,7 +1578,7 @@
     </object>
     <object class="AutomationPoint" id="{ed1a2dcc-e125-43d6-b869-97c026fb365b}">
         <property name="position">
-            <value>1.79999995976686</value>
+            <value>1.7999999597668599</value>
         </property>
         <property name="value">
             <value>-0.173914</value>
@@ -1529,7 +1589,7 @@
             <value>0</value>
         </property>
         <property name="value">
-            <value>3.78261</value>
+            <value>3.78260994</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{91a79950-83e9-40dd-9348-9d944eb9a5f5}">
@@ -1537,7 +1597,7 @@
             <value>1.09999997541308</value>
         </property>
         <property name="value">
-            <value>4.34783</value>
+            <value>4.34782982</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{d56b112c-53e3-4d95-a1df-bf1280aff400}">
@@ -1545,12 +1605,12 @@
             <value>1.99999995529652</value>
         </property>
         <property name="value">
-            <value>2.08696</value>
+            <value>2.08696008</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{e75c6f98-c656-4566-b6d6-ffb756bb690f}">
         <property name="position">
-            <value>1.69999996200204</value>
+            <value>1.6999999620020401</value>
         </property>
         <property name="value">
             <value>-0.173914</value>
@@ -1567,37 +1627,58 @@
     <object class="MixerBusFader" id="{d53ec969-d2d9-4cf6-9a6f-320654d8da4f}"/>
     <object class="MixerBusFader" id="{74c5f6ac-1102-4fff-897d-e32c30cd3c90}"/>
     <object class="SingleSound" id="{b1dfb94b-35b4-4de5-88a2-fe13dc40f473}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{1068348e-06cd-4f22-bdc5-906978d7a53b}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{4969155a-126f-4e88-a289-281ea33f72f5}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{5ff9ddcb-40e2-493f-9e91-b5415d235fa2}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{9f6943cd-ad22-4447-b131-fcfe655f317e}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{425036de-1d10-4cf0-8cfa-1b4177a7335e}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{db562f26-9018-4f68-954e-271528dcb965}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{ec64cbf8-6cef-4773-8d2c-46950ac401a3}</destination>
         </relationship>
     </object>
     <object class="MixerBusFader" id="{3db4f41b-d6c6-4e1e-8aad-137211ac0fc4}"/>
     <object class="SingleSound" id="{068e14c1-86e0-4f09-a87d-144e8d687122}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{43bdc2ad-7978-406e-89ca-dcb8e2cdf3f3}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{6e97e802-3fcf-427f-ab76-33f9a8084eee}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{5ab1bf3b-bd98-4a71-b7df-75ca465ca8e5}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{0f1d88a6-2aef-44df-9f11-b21c26912896}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{eea3a13c-a7e1-4097-94d8-0cf524adb4ab}</destination>
         </relationship>
@@ -1605,41 +1686,65 @@
     <object class="MixerBusFader" id="{52128219-b2b5-44a1-ae9e-86b32fc1d573}"/>
     <object class="LowpassEffect" id="{2088e890-45af-4ab2-95f8-197a294094c1}"/>
     <object class="SingleSound" id="{35233d81-2a65-4aa7-a1c8-297cdfc3cd3b}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{225ee5ab-b688-4281-8655-88d76dfd8224}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{d4fccd1b-70a5-4be2-9596-4c004430486f}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{16c2329b-5f4e-4f27-b024-5663d3d62f06}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{619d7537-cbcc-47ac-aa64-4aae07bc4350}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{b405def4-1438-4748-a230-c31a33a18922}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{61dc6e10-6985-4d3c-9052-2911e2aaddd3}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{75e7b3dc-c652-4193-9c52-615689594d22}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{d1afb0f2-2745-467b-9513-c9adc5b34830}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{225ee5ab-b688-4281-8655-88d76dfd8224}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{941ee92c-624a-4ab9-bc4e-05f1d5e8b3ef}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{16c2329b-5f4e-4f27-b024-5663d3d62f06}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{d68127b1-36e9-4e68-9400-b555fe4ab7bb}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{b405def4-1438-4748-a230-c31a33a18922}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{bf2adba3-b824-4e07-a4e4-6d2d789513b4}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{75e7b3dc-c652-4193-9c52-615689594d22}</destination>
         </relationship>
@@ -1649,57 +1754,90 @@
     <object class="MixerBusFader" id="{67a10d8a-6958-4c88-a1f3-e0b42fd310cf}"/>
     <object class="MixerBusFader" id="{167724cd-d64d-44e3-bb45-9994de3f78ff}"/>
     <object class="SingleSound" id="{1a4068d2-1713-4a97-a17d-49246109c67c}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{944db03c-a27e-4b01-94dc-d33030025646}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{80c195ad-c31e-4254-8941-b9f64dd60649}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{90ddef63-046a-424a-aff7-16e4d970ef7a}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{d55550b0-e217-44ba-a31b-a58132d452f5}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{768241c9-9ef4-4f98-a039-ce60e6a701cc}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{7123cf5c-1fa6-4e43-b955-933cc99f5446}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{1156de5e-b4cf-4ffe-8ebf-9b3dbd0a14a1}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{a3271a78-753b-43ed-a8dd-4e92ff3000b2}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{9704505d-e820-4ba1-a188-00f80b798e85}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{ce88ae42-a1f6-4274-a25b-673a096126d7}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{ce444b51-29e9-4ad0-914f-c423e238f37c}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{b6118f93-b33c-42a5-8e86-26e484b421c0}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{20e78e29-6ac1-4d23-9862-8b8dbc4cf92b}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{50c2bab5-b724-420b-a121-e5c7ab4f23b2}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{23dd59cb-cd48-4fbd-bdce-3fe79c880b4b}</destination>
         </relationship>
     </object>
     <object class="MixerBusFader" id="{be0da747-d3dc-49e5-a2eb-3517347cd783}"/>
     <object class="SingleSound" id="{ddcbe27c-a476-4656-b765-0b4804b057a1}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{bf288517-6189-4bb6-b065-2375c9fbed45}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{f3005f9a-ac62-4c42-b881-16b028902377}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{f474347b-c0b0-488c-9632-5c809aa1a807}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{0bc3cb60-0380-42a4-adf1-10e49726434c}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{c0a5d691-34f3-4adc-91e1-9f222e714a9c}</destination>
         </relationship>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.03.01">
+<objects serializationModel="Studio.01.05.00">
     <object class="Bank" id="{d4d1dee1-bc07-4fbb-b148-72041069324e}">
         <property name="name">
             <value>UI</value>
@@ -11,6 +11,9 @@
             <destination>{4bc2d8f1-8d59-4e1a-b39b-f3908e83f4fe}</destination>
             <destination>{e89e8cee-96ae-4f8b-b5e8-d95b467f3c4d}</destination>
         </relationship>
+        <relationship name="buildHash">
+            <destination>{b61f8ee3-5d2a-47c6-8ee7-3b487b2849c7}</destination>
+        </relationship>
     </object>
     <object class="DesktopBuildSetting" id="{4bc2d8f1-8d59-4e1a-b39b-f3908e83f4fe}">
         <relationship name="compressionSettings">
@@ -20,6 +23,9 @@
         </relationship>
         <relationship name="activeCompressionSetting">
             <destination>{2a8901f0-16d4-4063-8391-a01ec370d023}</destination>
+        </relationship>
+        <relationship name="buildHash">
+            <destination>{17665a9e-2bd4-4861-b214-799a56286b02}</destination>
         </relationship>
     </object>
     <object class="MobileBuildSetting" id="{e89e8cee-96ae-4f8b-b5e8-d95b467f3c4d}">
@@ -31,7 +37,11 @@
         <relationship name="activeCompressionSetting">
             <destination>{6e9805db-59e4-4bbb-a6ed-afcefb64869f}</destination>
         </relationship>
+        <relationship name="buildHash">
+            <destination>{8eb5d171-023c-4481-960e-3cc7a108bd69}</destination>
+        </relationship>
     </object>
+    <object class="BankBuildHash" id="{b61f8ee3-5d2a-47c6-8ee7-3b487b2849c7}"/>
     <object class="LossyCompressionSetting" id="{2a8901f0-16d4-4063-8391-a01ec370d023}">
         <property name="type">
             <value>Vorbis</value>
@@ -47,6 +57,7 @@
             <value>PCM</value>
         </property>
     </object>
+    <object class="BankBuildHash" id="{17665a9e-2bd4-4861-b214-799a56286b02}"/>
     <object class="PCMCompressionSetting" id="{6e9805db-59e4-4bbb-a6ed-afcefb64869f}">
         <property name="type">
             <value>ADPCM</value>
@@ -62,4 +73,5 @@
             <value>PCM</value>
         </property>
     </object>
+    <object class="BankBuildHash" id="{8eb5d171-023c-4481-960e-3cc7a108bd69}"/>
 </objects>

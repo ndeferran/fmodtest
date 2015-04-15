@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.03.01">
+<objects serializationModel="Studio.01.05.00">
     <object class="MixerInput" id="{ae80485c-3e55-4a6e-b77b-bb543e995599}">
         <relationship name="effectChain">
             <destination>{fc7f77c2-03a0-4bf7-ae40-0af8eca349d8}</destination>

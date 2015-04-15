@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.03.01">
+<objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{d73c4d28-fd23-4d71-a63b-bbf4f118af79}">
         <property name="name">
             <value>UI_TouchStart</value>
@@ -73,7 +73,10 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>1.48353741496599</value>
+            <value>1.4835374149659899</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="audioFile">
             <destination>{eef5826d-2050-46ab-9c9b-ff58947cd431}</destination>

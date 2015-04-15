@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.03.01">
+<objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{b6c86e00-99a1-441a-9451-9ca7b0cde334}">
         <property name="name">
             <value>AMB_Wind_MainTitle</value>
@@ -107,6 +107,9 @@
         <property name="length">
             <value>14.0034512510785</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="looping">
             <value>true</value>
         </property>
@@ -138,6 +141,9 @@
         <property name="length">
             <value>13.9775668679896</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="polyphony">
             <value>2</value>
         </property>
@@ -148,16 +154,16 @@
             <value>4350</value>
         </property>
         <property name="minimumScatterDistance">
-            <value>1.6</value>
+            <value>1.60000002</value>
         </property>
         <property name="maximumScatterDistance">
-            <value>8.6</value>
+            <value>8.60000038</value>
         </property>
         <property name="volumeRandomization">
             <value>-3</value>
         </property>
         <property name="pitchRandomization">
-            <value>3.7</value>
+            <value>3.70000005</value>
         </property>
         <property name="runtimeVolumeModulatorID">
             <value>{bbf64f9d-1bc2-41e1-96b3-9c5b5da8f73f}</value>
@@ -202,17 +208,20 @@
         <property name="length">
             <value>13.9516824849008</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="minimumTimeBetweenSounds">
-            <value>5750</value>
+            <value>3800</value>
         </property>
         <property name="maximumTimeBetweenSounds">
             <value>9800</value>
         </property>
         <property name="minimumScatterDistance">
-            <value>9.4</value>
+            <value>7.5999999</value>
         </property>
         <property name="maximumScatterDistance">
-            <value>45</value>
+            <value>13</value>
         </property>
         <property name="runtimeVolumeModulatorID">
             <value>{a7c0fd8e-ba11-4c53-a12e-9c1ab80e554d}</value>
@@ -253,6 +262,9 @@
         </property>
         <property name="length">
             <value>13.3563416738568</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{7f62081c-f010-46a7-be9f-a280e7f7e24d}</destination>
@@ -310,6 +322,9 @@
     </object>
     <object class="MixerBusPanner" id="{f892c5e6-b0f1-4a6b-a532-e536c3385f11}"/>
     <object class="MultiSound" id="{17341682-a112-46d0-9f31-4e4fd34db9f1}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="sounds">
             <destination>{a3760c7b-8bc0-47b7-aba6-430861800f8a}</destination>
             <destination>{fbac8c3a-3519-4b18-a0f1-ed9a9987c1b2}</destination>
@@ -324,6 +339,9 @@
     </object>
     <object class="MixerBusPanner" id="{685acbda-50ca-430d-a9df-58583b6f9bf9}"/>
     <object class="MultiSound" id="{d3017f47-3fd1-4b3a-93ed-b2ce9a3210a5}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="sounds">
             <destination>{70f823be-4464-4265-b3e5-e144f794ca62}</destination>
             <destination>{38d6e125-0a9c-4290-ab40-3f770dade611}</destination>
@@ -352,62 +370,98 @@
     </object>
     <object class="MixerBusFader" id="{f9d01d47-913d-4f69-a400-b1e761419b1a}"/>
     <object class="SingleSound" id="{a3760c7b-8bc0-47b7-aba6-430861800f8a}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{b405def4-1438-4748-a230-c31a33a18922}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{fbac8c3a-3519-4b18-a0f1-ed9a9987c1b2}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{75e7b3dc-c652-4193-9c52-615689594d22}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{0f3bc521-e378-40ea-adf8-46005cdb3473}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{225ee5ab-b688-4281-8655-88d76dfd8224}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{3ba9bf53-fa15-4374-8ddd-3496d34182f1}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{16c2329b-5f4e-4f27-b024-5663d3d62f06}</destination>
         </relationship>
     </object>
     <object class="MixerBusFader" id="{892d6e19-f67f-472a-8111-076c8537a689}"/>
     <object class="SingleSound" id="{70f823be-4464-4265-b3e5-e144f794ca62}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{3c50a292-9a3e-49c4-99c0-461016790217}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{38d6e125-0a9c-4290-ab40-3f770dade611}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{9d88113e-e694-4f8e-a121-407c3b094b2f}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{f57b271b-9587-4410-b1ba-17ff6b4cbf90}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{109eca44-6789-4755-8056-8843e505a2d7}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{8313664d-0f72-4df3-8c8b-1421b1a6e8cb}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{db8ef2b9-fde2-4cea-9ef4-197c41fabd99}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{0d91f6cd-267a-419b-a6d5-c5b7f7127b6f}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{bd65dc14-95ce-42c7-aa41-799bc75883dd}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{49680db3-144e-4994-9b88-6d1d06870c7e}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{7b4ada5a-7017-4c0c-aca4-fa5f86f49d62}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{b9c768c6-60c2-4cb5-9ce0-ef59c0297ef2}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{723d1390-634c-45d3-8e85-731a8a5055f9}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{7b6a3bab-b138-4d53-8158-e252bc490669}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="audioFile">
             <destination>{25af05c8-348f-4304-931c-074ec08b60e2}</destination>
         </relationship>

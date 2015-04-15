@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.03.01">
+<objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{1d9fa00a-dae9-4375-ad38-1e2fa83a67ea}">
         <property name="name">
             <value>MUS_Stormbreaker</value>
@@ -126,10 +126,13 @@
     </object>
     <object class="SingleSound" id="{0a6b2545-5b17-4e9a-9997-3cfe35bacaf0}">
         <property name="start">
-            <value>142.8</value>
+            <value>142.80000000000001</value>
         </property>
         <property name="length">
-            <value>11.200022675737</value>
+            <value>11.200022675736999</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Yellow</value>
@@ -140,10 +143,13 @@
     </object>
     <object class="SingleSound" id="{190f64c4-398b-47f6-a5c6-41a8c7cbe208}">
         <property name="start">
-            <value>64.4</value>
+            <value>64.400000000000006</value>
         </property>
         <property name="length">
             <value>14.000022675737</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Green</value>
@@ -160,10 +166,13 @@
     </object>
     <object class="SingleSound" id="{28a90217-bac7-4c60-ab89-ca483ff6e795}">
         <property name="start">
-            <value>106.4</value>
+            <value>106.40000000000001</value>
         </property>
         <property name="length">
-            <value>11.2</value>
+            <value>11.199999999999999</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Red</value>
@@ -180,10 +189,13 @@
     </object>
     <object class="SingleSound" id="{6c306881-a3b2-4694-b5a8-f448cb28cc1f}">
         <property name="start">
-            <value>81.2</value>
+            <value>81.200000000000003</value>
         </property>
         <property name="length">
-            <value>22.3925849232132</value>
+            <value>22.392584923213199</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Green</value>
@@ -203,7 +215,10 @@
             <value>12.6</value>
         </property>
         <property name="length">
-            <value>25.200022675737</value>
+            <value>25.200022675736999</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Cyan</value>
@@ -220,10 +235,13 @@
     </object>
     <object class="SingleSound" id="{d3cba9c0-b836-4d9c-a86f-b68f5d815880}">
         <property name="start">
-            <value>124.6</value>
+            <value>124.59999999999999</value>
         </property>
         <property name="length">
-            <value>11.1887810699525</value>
+            <value>11.188781069952499</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Red</value>
@@ -245,6 +263,9 @@
         <property name="length">
             <value>11.1966579736655</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="color">
             <value>Magenta</value>
         </property>
@@ -260,10 +281,13 @@
     </object>
     <object class="SingleSound" id="{f992282c-1c49-4adb-864f-bd482182b8b8}">
         <property name="start">
-            <value>39.2</value>
+            <value>39.200000000000003</value>
         </property>
         <property name="length">
-            <value>22.3944256917553</value>
+            <value>22.394425691755298</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Cyan</value>
@@ -299,6 +323,9 @@
         <property name="length">
             <value>49</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="quantizationInterval">
             <value>1</value>
         </property>
@@ -317,7 +344,7 @@
     </object>
     <object class="NamedMarker" id="{2c868beb-5efc-492e-90d9-4502cfe976bf}">
         <property name="position">
-            <value>142.8</value>
+            <value>142.80000000000001</value>
         </property>
         <property name="name">
             <value>Outro</value>
@@ -331,7 +358,7 @@
     </object>
     <object class="NamedMarker" id="{2f6170e8-1437-4437-8262-9547a2b79244}">
         <property name="position">
-            <value>106.4</value>
+            <value>106.40000000000001</value>
         </property>
         <property name="name">
             <value>PartC_01</value>
@@ -345,7 +372,7 @@
     </object>
     <object class="NamedMarker" id="{33ec6c84-a1f5-46c0-a83b-d80774cb902b}">
         <property name="position">
-            <value>39.2</value>
+            <value>39.200000000000003</value>
         </property>
         <property name="name">
             <value>PartA No Melody</value>
@@ -359,7 +386,10 @@
     </object>
     <object class="TransitionMarker" id="{38bea1b4-5e23-46d1-8bbb-54b23ee75ff8}">
         <property name="position">
-            <value>61.6</value>
+            <value>61.600000000000001</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{a04c59a9-e893-42c7-ab16-3a8161bb1ea5}</destination>
@@ -373,7 +403,7 @@
     </object>
     <object class="NamedMarker" id="{4b4504b0-2a51-41c0-88f1-38ed17509a0d}">
         <property name="position">
-            <value>81.2</value>
+            <value>81.200000000000003</value>
         </property>
         <property name="name">
             <value>PartB_02</value>
@@ -390,7 +420,10 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>11.2</value>
+            <value>11.199999999999999</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="quantizationInterval">
             <value>1</value>
@@ -410,13 +443,16 @@
     </object>
     <object class="TransitionRegion" id="{56783ec3-ed99-49c6-a1a4-7bbda72dff77}">
         <property name="position">
-            <value>106.4</value>
+            <value>106.40000000000001</value>
         </property>
         <property name="length">
-            <value>29.4</value>
+            <value>29.399999999999999</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="quantizationInterval">
-            <value>1</value>
+            <value>3</value>
         </property>
         <relationship name="timeline">
             <destination>{a04c59a9-e893-42c7-ab16-3a8161bb1ea5}</destination>
@@ -433,7 +469,7 @@
     </object>
     <object class="NamedMarker" id="{675b1bff-054e-4042-a245-3359f5949b69}">
         <property name="position">
-            <value>124.6</value>
+            <value>124.59999999999999</value>
         </property>
         <property name="name">
             <value>PartC_02</value>
@@ -447,7 +483,10 @@
     </object>
     <object class="TransitionMarker" id="{696a744e-5e6c-4cdb-81ed-f28e530da3f0}">
         <property name="position">
-            <value>11.2</value>
+            <value>11.199999999999999</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{a04c59a9-e893-42c7-ab16-3a8161bb1ea5}</destination>
@@ -461,7 +500,10 @@
     </object>
     <object class="TransitionMarker" id="{69850c0c-59fa-49f3-bcdb-c2bae8033a81}">
         <property name="position">
-            <value>117.6</value>
+            <value>117.59999999999999</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{a04c59a9-e893-42c7-ab16-3a8161bb1ea5}</destination>
@@ -477,6 +519,9 @@
         <property name="position">
             <value>35</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <relationship name="timeline">
             <destination>{a04c59a9-e893-42c7-ab16-3a8161bb1ea5}</destination>
         </relationship>
@@ -489,7 +534,7 @@
     </object>
     <object class="NamedMarker" id="{92ddc480-4c40-4797-bab9-713e6c0eecfa}">
         <property name="position">
-            <value>64.4</value>
+            <value>64.400000000000006</value>
         </property>
         <property name="name">
             <value>PartB_01</value>
@@ -517,10 +562,13 @@
     </object>
     <object class="TransitionRegion" id="{9c02fc6c-5b8a-43d2-808d-7d224ff46cab}">
         <property name="position">
-            <value>64.4</value>
+            <value>64.400000000000006</value>
         </property>
         <property name="length">
-            <value>39.2</value>
+            <value>39.200000000000003</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="quantizationInterval">
             <value>1</value>
@@ -574,7 +622,10 @@
     </object>
     <object class="TransitionMarker" id="{d525a3f7-2c61-4015-8e1c-52e56b5c4812}">
         <property name="position">
-            <value>135.8</value>
+            <value>135.80000000000001</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{a04c59a9-e893-42c7-ab16-3a8161bb1ea5}</destination>
@@ -588,7 +639,10 @@
     </object>
     <object class="TransitionMarker" id="{ebfc7fac-3af1-4b1d-9d65-3ec3935e69d3}">
         <property name="position">
-            <value>75.6</value>
+            <value>75.599999999999994</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{a04c59a9-e893-42c7-ab16-3a8161bb1ea5}</destination>
@@ -602,7 +656,10 @@
     </object>
     <object class="TransitionMarker" id="{f3dd91cc-9025-4aef-a61a-ba6915f5806f}">
         <property name="position">
-            <value>103.6</value>
+            <value>103.59999999999999</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{a04c59a9-e893-42c7-ab16-3a8161bb1ea5}</destination>
@@ -639,7 +696,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-0.577777</value>
+            <value>-0.577777028</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -654,7 +711,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>3876.09</value>
+            <value>3876.09009</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -681,7 +738,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-9.53674e-07</value>
+            <value>-9.53673975e-07</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -716,7 +773,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-9.53674e-07</value>
+            <value>-9.53673975e-07</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -751,7 +808,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-0.577777</value>
+            <value>-0.577777028</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -786,7 +843,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-0.577777</value>
+            <value>-0.577777028</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -821,7 +878,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-9.53674e-07</value>
+            <value>-9.53673975e-07</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -836,7 +893,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>2232.61</value>
+            <value>2232.61011</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -856,7 +913,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-9.53674e-07</value>
+            <value>-9.53673975e-07</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -891,7 +948,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-0.577777</value>
+            <value>-0.577777028</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -923,7 +980,7 @@
             <value>2</value>
         </property>
         <property name="maximum">
-            <value>2.99000000953674</value>
+            <value>2.9900000095367401</value>
         </property>
         <relationship name="parameter">
             <destination>{b0303732-15eb-4bff-9f96-9d5bdcdf2fc2}</destination>
@@ -934,7 +991,7 @@
             <value>1</value>
         </property>
         <property name="maximum">
-            <value>1.99000000953674</value>
+            <value>1.9900000095367401</value>
         </property>
         <relationship name="parameter">
             <destination>{b0303732-15eb-4bff-9f96-9d5bdcdf2fc2}</destination>
@@ -945,7 +1002,7 @@
             <value>4</value>
         </property>
         <property name="maximum">
-            <value>4.98999977111816</value>
+            <value>4.9899997711181596</value>
         </property>
         <relationship name="parameter">
             <destination>{b0303732-15eb-4bff-9f96-9d5bdcdf2fc2}</destination>
@@ -956,7 +1013,7 @@
             <value>3</value>
         </property>
         <property name="maximum">
-            <value>3.99000000953674</value>
+            <value>3.9900000095367401</value>
         </property>
         <relationship name="parameter">
             <destination>{b0303732-15eb-4bff-9f96-9d5bdcdf2fc2}</destination>

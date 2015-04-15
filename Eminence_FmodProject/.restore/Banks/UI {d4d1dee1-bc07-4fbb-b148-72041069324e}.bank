@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.03.01">
+    <object class="Bank" id="{d4d1dee1-bc07-4fbb-b148-72041069324e}">
+        <property name="name">
+            <value>UI</value>
+        </property>
+        <relationship name="folder">
+            <destination>{97a93766-f2f4-4043-b3fb-d0ca5deb14bf}</destination>
+        </relationship>
+        <relationship name="buildSettings">
+            <destination>{4bc2d8f1-8d59-4e1a-b39b-f3908e83f4fe}</destination>
+            <destination>{e89e8cee-96ae-4f8b-b5e8-d95b467f3c4d}</destination>
+        </relationship>
+    </object>
+    <object class="DesktopBuildSetting" id="{4bc2d8f1-8d59-4e1a-b39b-f3908e83f4fe}">
+        <relationship name="compressionSettings">
+            <destination>{2a8901f0-16d4-4063-8391-a01ec370d023}</destination>
+            <destination>{2f944619-4c1d-446f-984f-b3eaded35a9b}</destination>
+            <destination>{62d23d38-77c5-4ffd-a3c3-e43381b67de3}</destination>
+        </relationship>
+        <relationship name="activeCompressionSetting">
+            <destination>{2a8901f0-16d4-4063-8391-a01ec370d023}</destination>
+        </relationship>
+    </object>
+    <object class="MobileBuildSetting" id="{e89e8cee-96ae-4f8b-b5e8-d95b467f3c4d}">
+        <relationship name="compressionSettings">
+            <destination>{6e9805db-59e4-4bbb-a6ed-afcefb64869f}</destination>
+            <destination>{646a8aaf-fdf9-455d-a4b0-85bd80ecb882}</destination>
+            <destination>{2bdf0cb5-88dd-46a7-a127-994429aadfd4}</destination>
+        </relationship>
+        <relationship name="activeCompressionSetting">
+            <destination>{6e9805db-59e4-4bbb-a6ed-afcefb64869f}</destination>
+        </relationship>
+    </object>
+    <object class="LossyCompressionSetting" id="{2a8901f0-16d4-4063-8391-a01ec370d023}">
+        <property name="type">
+            <value>Vorbis</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{2f944619-4c1d-446f-984f-b3eaded35a9b}">
+        <property name="type">
+            <value>ADPCM</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{62d23d38-77c5-4ffd-a3c3-e43381b67de3}">
+        <property name="type">
+            <value>PCM</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{6e9805db-59e4-4bbb-a6ed-afcefb64869f}">
+        <property name="type">
+            <value>ADPCM</value>
+        </property>
+    </object>
+    <object class="LossyCompressionSetting" id="{646a8aaf-fdf9-455d-a4b0-85bd80ecb882}">
+        <property name="type">
+            <value>Vorbis</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{2bdf0cb5-88dd-46a7-a127-994429aadfd4}">
+        <property name="type">
+            <value>PCM</value>
+        </property>
+    </object>
+</objects>

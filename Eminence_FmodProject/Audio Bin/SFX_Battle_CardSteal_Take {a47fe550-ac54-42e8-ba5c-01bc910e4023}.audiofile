@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a47fe550-ac54-42e8-ba5c-01bc910e4023}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.0207708333333332</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/SFX_Battle_CardSteal_Take {775bc4c4-77cf-4a24-8ec2-3056b5c0fafe}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{3422af69-6b6e-491d-ac83-137d6edc2454}</destination>
+        </relationship>
+    </object>
+</objects>

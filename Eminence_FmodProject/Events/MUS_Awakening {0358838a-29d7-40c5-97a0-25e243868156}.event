@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.03.01">
+<objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{0358838a-29d7-40c5-97a0-25e243868156}">
         <property name="name">
             <value>MUS_Awakening</value>
@@ -128,10 +128,13 @@
     </object>
     <object class="SingleSound" id="{08acc528-2dd0-49ab-8d22-4f7b1b7b66f2}">
         <property name="start">
-            <value>93.5294117647059</value>
+            <value>93.529411764705898</value>
         </property>
         <property name="length">
-            <value>28.2352941176471</value>
+            <value>28.235294117647101</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Red</value>
@@ -148,10 +151,13 @@
     </object>
     <object class="SingleSound" id="{44cec716-c6ae-4497-9adc-ef9feb2506d7}">
         <property name="start">
-            <value>77.6470588235294</value>
+            <value>77.647058823529406</value>
         </property>
         <property name="length">
             <value>14.0900735294118</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Cyan</value>
@@ -168,10 +174,13 @@
     </object>
     <object class="SingleSound" id="{82b60422-4615-4be2-8485-56b4e0c533f9}">
         <property name="start">
-            <value>15.8823529411765</value>
+            <value>15.882352941176499</value>
         </property>
         <property name="length">
-            <value>28.2352941176471</value>
+            <value>28.235294117647101</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Green</value>
@@ -193,6 +202,9 @@
         <property name="length">
             <value>14.0900735294118</value>
         </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="color">
             <value>Red</value>
         </property>
@@ -208,10 +220,13 @@
     </object>
     <object class="SingleSound" id="{bc613fa1-638e-4e90-911f-d5b8665adabb}">
         <property name="start">
-            <value>139.411764705882</value>
+            <value>139.41176470588201</value>
         </property>
         <property name="length">
             <value>10.588253968254</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Yellow</value>
@@ -222,10 +237,13 @@
     </object>
     <object class="SingleSound" id="{cc006ade-6527-411b-a363-747cd34bba49}">
         <property name="start">
-            <value>61.7647058823529</value>
+            <value>61.764705882352899</value>
         </property>
         <property name="length">
-            <value>14.1176470588235</value>
+            <value>14.117647058823501</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Cyan</value>
@@ -245,7 +263,10 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>14.1107536764706</value>
+            <value>14.007372145838913</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Magenta</value>
@@ -262,10 +283,13 @@
     </object>
     <object class="SingleSound" id="{d94ed4d1-1d3c-400f-a8ba-5be0e523be40}">
         <property name="start">
-            <value>45.8823529411765</value>
+            <value>45.882352941176499</value>
         </property>
         <property name="length">
             <value>14.0900735294118</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="color">
             <value>Green</value>
@@ -282,7 +306,7 @@
     </object>
     <object class="EventMixerGroup" id="{7a2cd58f-f280-4227-9281-211327c11de4}">
         <property name="volume">
-            <value>-2</value>
+            <value>-3</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -302,7 +326,10 @@
             <value>123.529411764706</value>
         </property>
         <property name="length">
-            <value>14.1176470588235</value>
+            <value>14.117647058823501</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{9c8dcaf2-d761-4dc7-a9fa-0e62306e6339}</destination>
@@ -316,7 +343,10 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>14.1176470588235</value>
+            <value>14.117647058823501</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="quantizationInterval">
             <value>2</value>
@@ -339,7 +369,10 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>14.1176470588235</value>
+            <value>14.117647058823501</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{9c8dcaf2-d761-4dc7-a9fa-0e62306e6339}</destination>
@@ -364,7 +397,7 @@
     </object>
     <object class="NamedMarker" id="{529947b6-404e-45c9-b2b1-ff45b4dae596}">
         <property name="position">
-            <value>77.6470588235294</value>
+            <value>77.647058823529406</value>
         </property>
         <property name="name">
             <value>PartB_02</value>
@@ -378,10 +411,13 @@
     </object>
     <object class="LoopRegion" id="{929423c7-43ce-493d-aabb-287287a66e15}">
         <property name="position">
-            <value>77.6470588235294</value>
+            <value>77.647058823529406</value>
         </property>
         <property name="length">
-            <value>14.1176470588235</value>
+            <value>14.117647058823501</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{9c8dcaf2-d761-4dc7-a9fa-0e62306e6339}</destination>
@@ -393,6 +429,9 @@
     <object class="TransitionMarker" id="{ac806fed-f1bf-4375-ad69-2e1e37c925c7}">
         <property name="position">
             <value>121.764705882353</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{9c8dcaf2-d761-4dc7-a9fa-0e62306e6339}</destination>
@@ -406,10 +445,13 @@
     </object>
     <object class="LoopRegion" id="{afa02dcc-1215-488a-baf4-25e3dc0271a2}">
         <property name="position">
-            <value>45.8823529411765</value>
+            <value>45.882352941176499</value>
         </property>
         <property name="length">
-            <value>14.1176470588235</value>
+            <value>14.117647058823501</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{9c8dcaf2-d761-4dc7-a9fa-0e62306e6339}</destination>
@@ -420,10 +462,13 @@
     </object>
     <object class="TransitionRegion" id="{b499e9da-e889-4312-9cc7-4be7138ef6da}">
         <property name="position">
-            <value>15.8823529411765</value>
+            <value>15.882352941176499</value>
         </property>
         <property name="length">
-            <value>44.1176470588235</value>
+            <value>44.117647058823501</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="quantizationInterval">
             <value>2</value>
@@ -443,7 +488,7 @@
     </object>
     <object class="NamedMarker" id="{bb88df58-f6e7-4213-acdd-4833d87b4a97}">
         <property name="position">
-            <value>139.411764705882</value>
+            <value>139.41176470588201</value>
         </property>
         <property name="name">
             <value>Outro</value>
@@ -471,7 +516,7 @@
     </object>
     <object class="NamedMarker" id="{c1689e3b-af2e-4f5a-b1cc-cc4cb202599c}">
         <property name="position">
-            <value>45.8823529411765</value>
+            <value>45.882352941176499</value>
         </property>
         <property name="name">
             <value>PartA_NoMelody</value>
@@ -485,7 +530,7 @@
     </object>
     <object class="NamedMarker" id="{c4c6eb82-d140-48f1-a1d5-7370cc8b662c}">
         <property name="position">
-            <value>15.8823529411765</value>
+            <value>15.882352941176499</value>
         </property>
         <property name="name">
             <value>PartA_Melody</value>
@@ -499,7 +544,10 @@
     </object>
     <object class="TransitionMarker" id="{c64b7e44-3358-4354-96a0-4a027e6284f8}">
         <property name="position">
-            <value>44.1176470588235</value>
+            <value>44.117647058823501</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{9c8dcaf2-d761-4dc7-a9fa-0e62306e6339}</destination>
@@ -513,7 +561,7 @@
     </object>
     <object class="NamedMarker" id="{c77dbe88-aff4-417f-b03d-3ac07853ddc7}">
         <property name="position">
-            <value>61.7647058823529</value>
+            <value>61.764705882352899</value>
         </property>
         <property name="name">
             <value>PartB_01</value>
@@ -541,7 +589,10 @@
     </object>
     <object class="TransitionMarker" id="{dba6884c-662a-42ba-81e7-d13150e41f5c}">
         <property name="position">
-            <value>75.8823529411765</value>
+            <value>75.882352941176507</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{9c8dcaf2-d761-4dc7-a9fa-0e62306e6339}</destination>
@@ -555,13 +606,16 @@
     </object>
     <object class="TransitionRegion" id="{df135ce1-67e9-435b-ad79-cb6ffd58fe38}">
         <property name="position">
-            <value>93.5294117647059</value>
+            <value>93.529411764705898</value>
         </property>
         <property name="length">
-            <value>44.1176470588235</value>
+            <value>44.117647058823501</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="quantizationInterval">
-            <value>2</value>
+            <value>3</value>
         </property>
         <relationship name="timeline">
             <destination>{9c8dcaf2-d761-4dc7-a9fa-0e62306e6339}</destination>
@@ -578,7 +632,7 @@
     </object>
     <object class="NamedMarker" id="{e438f631-8391-49af-9459-9b0f9a9ebb0e}">
         <property name="position">
-            <value>93.5294117647059</value>
+            <value>93.529411764705898</value>
         </property>
         <property name="name">
             <value>PartC_01</value>
@@ -592,10 +646,13 @@
     </object>
     <object class="TransitionRegion" id="{e6b23b59-9770-4c05-975d-70d95b31e666}">
         <property name="position">
-            <value>61.7647058823529</value>
+            <value>61.764705882352899</value>
         </property>
         <property name="length">
             <value>30</value>
+        </property>
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
         </property>
         <property name="quantizationInterval">
             <value>2</value>
@@ -638,7 +695,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-9.53674e-07</value>
+            <value>-9.53673975e-07</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -653,7 +710,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>3465.22</value>
+            <value>1000</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -695,10 +752,10 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>8984.78</value>
+            <value>6000</value>
         </property>
         <property name="releaseShape">
-            <value>0.628728</value>
+            <value>0.628727973</value>
         </property>
     </object>
     <object class="ADSRModulator" id="{bd5cb0cd-d29c-4b1f-b798-7caac016d51f}">
@@ -750,7 +807,7 @@
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-9.53674e-07</value>
+            <value>-9.53673975e-07</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -765,10 +822,10 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>6108.7</value>
+            <value>3000</value>
         </property>
         <property name="releaseShape">
-            <value>0.587577</value>
+            <value>0.587576985</value>
         </property>
     </object>
     <object class="ADSRModulator" id="{e759dcc4-d6c0-4f85-8f4f-0bc1f8ddaf1c}">
@@ -849,13 +906,13 @@
             <value>-80</value>
         </property>
         <property name="attackTime">
-            <value>0</value>
+            <value>10</value>
         </property>
         <property name="attackShape">
             <value>0</value>
         </property>
         <property name="peakValue">
-            <value>-9.53674e-07</value>
+            <value>-9.53673975e-07</value>
         </property>
         <property name="holdTime">
             <value>1000</value>
@@ -870,7 +927,7 @@
             <value>0</value>
         </property>
         <property name="releaseTime">
-            <value>1000</value>
+            <value>4000</value>
         </property>
         <property name="releaseShape">
             <value>0</value>
@@ -922,7 +979,7 @@
             <value>1</value>
         </property>
         <property name="maximum">
-            <value>1.99000000953674</value>
+            <value>1.9900000095367401</value>
         </property>
         <relationship name="parameter">
             <destination>{d520a4d6-8215-4d93-99bf-bb872600329f}</destination>
@@ -933,7 +990,7 @@
             <value>2</value>
         </property>
         <property name="maximum">
-            <value>2.99000000953674</value>
+            <value>2.9900000095367401</value>
         </property>
         <relationship name="parameter">
             <destination>{d520a4d6-8215-4d93-99bf-bb872600329f}</destination>
@@ -944,7 +1001,7 @@
             <value>4</value>
         </property>
         <property name="maximum">
-            <value>4.98999977111816</value>
+            <value>4.9899997711181596</value>
         </property>
         <relationship name="parameter">
             <destination>{d520a4d6-8215-4d93-99bf-bb872600329f}</destination>
@@ -955,7 +1012,7 @@
             <value>3</value>
         </property>
         <property name="maximum">
-            <value>3.99000000953674</value>
+            <value>3.9900000095367401</value>
         </property>
         <relationship name="parameter">
             <destination>{d520a4d6-8215-4d93-99bf-bb872600329f}</destination>
