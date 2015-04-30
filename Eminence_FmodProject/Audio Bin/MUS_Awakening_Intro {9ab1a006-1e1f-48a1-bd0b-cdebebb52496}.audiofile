@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{9ab1a006-1e1f-48a1-bd0b-cdebebb52496}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>35.294126984126983</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/MUS_Awakening_Intro {2ed08f06-5351-45aa-b409-6d051cef4a56}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{82b7b513-7ded-4b95-9333-1973484fab63}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{eb3e6584-8c1d-4987-aadd-30458f9a9c09}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>17.647074829931974</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/MUS_Awakening_PartB_02 {f286f833-7026-4227-ac64-30ab9f53a1da}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{82b7b513-7ded-4b95-9333-1973484fab63}</destination>
+        </relationship>
+    </object>
+</objects>
