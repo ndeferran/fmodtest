@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.03.01">
+    <object class="AudioFile" id="{768241c9-9ef4-4f98-a039-ce60e6a701cc}">
+        <property name="frequencyInKHz">
+            <value>44.1</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.607006802721088</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/AMB_2D_Beep_03 {c226dbf5-49d6-4a52-9ad7-84439d214619}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{95c01236-b017-4576-b286-8c2a1a704eb4}</destination>
+        </relationship>
+    </object>
+</objects>

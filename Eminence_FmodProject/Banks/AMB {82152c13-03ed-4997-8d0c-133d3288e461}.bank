@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Bank" id="{82152c13-03ed-4997-8d0c-133d3288e461}">
+        <property name="name">
+            <value>AMB</value>
+        </property>
+        <relationship name="folder">
+            <destination>{97a93766-f2f4-4043-b3fb-d0ca5deb14bf}</destination>
+        </relationship>
+        <relationship name="buildSettings">
+            <destination>{4061bfe6-5bbe-44f1-b5a8-9d58e7b3669d}</destination>
+            <destination>{e864d263-4558-4daa-b484-676f5ef929eb}</destination>
+        </relationship>
+        <relationship name="buildHash">
+            <destination>{23f9b34d-8b6d-460c-9a51-a9a9c91d59f0}</destination>
+        </relationship>
+    </object>
+    <object class="DesktopBuildSetting" id="{4061bfe6-5bbe-44f1-b5a8-9d58e7b3669d}">
+        <relationship name="compressionSettings">
+            <destination>{a18aafb0-1945-4ea1-919e-18ab9dc4e61d}</destination>
+            <destination>{4bc60d57-5238-40c2-8319-ddf7dcc8fc35}</destination>
+            <destination>{32af0975-33c5-4eff-b756-b8423ae446b5}</destination>
+        </relationship>
+        <relationship name="activeCompressionSetting">
+            <destination>{a18aafb0-1945-4ea1-919e-18ab9dc4e61d}</destination>
+        </relationship>
+        <relationship name="buildHash">
+            <destination>{e06aca17-fe01-45fe-a9e5-f376b2cb5c28}</destination>
+        </relationship>
+    </object>
+    <object class="MobileBuildSetting" id="{e864d263-4558-4daa-b484-676f5ef929eb}">
+        <relationship name="compressionSettings">
+            <destination>{b723945f-f869-4d08-9899-e77869309554}</destination>
+            <destination>{fffcae4d-b9ca-4a68-bd3b-7c01a7ffc8ad}</destination>
+            <destination>{32abb22e-9dba-4b77-9029-b61c5fdc77a2}</destination>
+        </relationship>
+        <relationship name="activeCompressionSetting">
+            <destination>{b723945f-f869-4d08-9899-e77869309554}</destination>
+        </relationship>
+        <relationship name="buildHash">
+            <destination>{6c49978e-be32-4d47-80b0-03b2e2a13d52}</destination>
+        </relationship>
+    </object>
+    <object class="BankBuildHash" id="{23f9b34d-8b6d-460c-9a51-a9a9c91d59f0}"/>
+    <object class="LossyCompressionSetting" id="{a18aafb0-1945-4ea1-919e-18ab9dc4e61d}">
+        <property name="type">
+            <value>Vorbis</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{4bc60d57-5238-40c2-8319-ddf7dcc8fc35}">
+        <property name="type">
+            <value>ADPCM</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{32af0975-33c5-4eff-b756-b8423ae446b5}">
+        <property name="type">
+            <value>PCM</value>
+        </property>
+    </object>
+    <object class="BankBuildHash" id="{e06aca17-fe01-45fe-a9e5-f376b2cb5c28}"/>
+    <object class="PCMCompressionSetting" id="{b723945f-f869-4d08-9899-e77869309554}">
+        <property name="type">
+            <value>ADPCM</value>
+        </property>
+    </object>
+    <object class="LossyCompressionSetting" id="{fffcae4d-b9ca-4a68-bd3b-7c01a7ffc8ad}">
+        <property name="type">
+            <value>Vorbis</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{32abb22e-9dba-4b77-9029-b61c5fdc77a2}">
+        <property name="type">
+            <value>PCM</value>
+        </property>
+    </object>
+    <object class="BankBuildHash" id="{6c49978e-be32-4d47-80b0-03b2e2a13d52}"/>
+</objects>

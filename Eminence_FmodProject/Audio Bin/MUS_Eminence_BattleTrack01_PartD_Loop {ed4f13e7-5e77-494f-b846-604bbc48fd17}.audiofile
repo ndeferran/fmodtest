@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.03.01">
+    <object class="AudioFile" id="{ed4f13e7-5e77-494f-b846-604bbc48fd17}">
+        <property name="frequencyInKHz">
+            <value>44.1</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>40.8510657596372</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/MUS_Eminence_BattleTrack01_PartD_Loop {c0017906-bd84-455d-83f0-b2fc9bd23719}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{b67485ee-ddde-4bf9-b164-a4e12831451a}</destination>
+        </relationship>
+    </object>
+</objects>
